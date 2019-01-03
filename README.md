@@ -9,6 +9,16 @@ This application support the [Getting Started with Clojure](https://devcenter.he
 
 Make sure you have Clojure installed.  Also, install the [Heroku Toolbelt](https://toolbelt.heroku.com/).
 
+First, clone the repo. Then you can change into the repo working directory and run the app.
+
+To run via `lein ring`:
+
+```sh
+$ lein ring server
+```
+
+To run in a REPL session:
+
 ```sh
 $ git clone https://github.com/heroku/clojure-getting-started.git
 $ cd clojure-getting-started

@@ -1,7 +1,7 @@
 
 # clojure-getting-started
 
-A barebones Clojure app, which can easily be deployed to Heroku.  
+A barebones Clojure app, which can easily be deployed to Heroku.
 
 This application support the [Getting Started with Clojure](https://devcenter.heroku.com/articles/getting-started-with-clojure) article - check it out.
 
@@ -23,7 +23,7 @@ Your app should now be running on [localhost:5000](http://localhost:5000/).
 
 ```sh
 $ heroku create
-$ git push heroku master
+$ git push heroku main
 $ heroku open
 ```
 

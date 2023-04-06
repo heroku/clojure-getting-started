@@ -1,1 +1,1 @@
-web: java $JVM_OPTS -cp target/clojure-getting-started-standalone.jar clojure.main -m clojure-getting-started.web
+web: java -Dclojure.main.report=stderr -cp target/uberjar/clojure-getting-started.jar clojure.main -m clojure-getting-started.core

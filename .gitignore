@@ -12,6 +12,7 @@ profiles.clj
 /.clj-kondo/.cache/
 /.lsp/.cache/
 /.calva/output-window/
+.DS_Store
 .idea
 .vscode
 /node_modules
